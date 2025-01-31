@@ -4,6 +4,9 @@ git config -- global user.name "Numele tau..."
 ## Setarea emailului
 git config --global user.email "fsfdsfsdsf@sfs.com"
 
+## Deschiderea editorului VSC ca editor default pt git
+git config --global core.editor "code --wait"
+
 ## initializeaza proiectul de git local - creeaza un folder .git ascuns
 git init
 
@@ -18,11 +21,18 @@ git log --oneline
 git status 
 git status -s
 
-## Comenzi de creare a commitului
+## Comenzi de adaugare a fisierelor in staged  (inainte de creare a commitului)
 
 git add filename
 git add .
 git add filename.*
 git add filename1 filename2 filename3
+
+## Comenzi creare a commitului
+git commit -m " Acesta este un mesaj descriptiv al commitului "
+git commit --message " Acesta este un mesaj descriptiv al commitului "
+
+## Comanda de adaugare + commit (!!!fisierele trebuie sa fi fost incluse intr un commit inainte)
+git commit -am " Acesta este un mesaj descriptiv al commitului "
 
 

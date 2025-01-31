@@ -36,3 +36,7 @@ git commit --message " Acesta este un mesaj descriptiv al commitului "
 git commit -am " Acesta este un mesaj descriptiv al commitului "
 
 
+## Modificarea mesajului ultimului commit 
+
+git commit --amend
+

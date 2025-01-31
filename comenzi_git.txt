@@ -1,10 +1,14 @@
-## initializeaza proiectul de git local - creeaza un folder .git ascuns
+## Setarea numele global
+git config -- global user.name "Numele tau..."
 
+## Setarea emailului
+git config --global user.email "fsfdsfsdsf@sfs.com"
+
+## initializeaza proiectul de git local - creeaza un folder .git ascuns
 git init
 
 ## descarca de pe server un proiect de git
 git clone https://github.com/username/project
-
 
 ## Arata lista de commituri
 git log
@@ -20,3 +24,5 @@ git add filename
 git add .
 git add filename.*
 git add filename1 filename2 filename3
+
+
